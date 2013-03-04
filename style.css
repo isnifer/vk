@@ -213,6 +213,9 @@ div#page_body{
 
 div#page_body div#profile_cover{
   width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 
 div#page_body div#profile_cover img.cover{
