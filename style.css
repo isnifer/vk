@@ -1,5 +1,6 @@
 body{
   width: 100%;
+  min-width: 1290px;
   background: #1c1d22;
   color: #8f9092;
   font: normal 100% "PT Sans Narrow", sans-serif;
@@ -54,7 +55,7 @@ div.content table#top_links a.top_home_link{
 div.content table#top_links td a.top_nav_link{
   font-size: 1.1em;
   font-weight: normal;
-  padding: 2px 17px 14px;
+  padding: 4px 17px 14px;
 }
 
 #ts_wrap{
@@ -147,7 +148,7 @@ div#top_info ul.top_info_navigation a{
     text-decoration: none;
     background: #404048;
     background: -moz-linear-gradient(top, #414149 0%, #35353d 50%, #25262b 100%);
-    background: -webkit-linear-gradient(top, #e414149 0%, #35353d 50%, #25262b 100%);
+    background: -webkit-linear-gradient(top, #414149 0%, #35353d 50%, #25262b 100%);
     background: -o-linear-gradient(top, #414149 0%, #35353d 50%, #25262b 100%);
     background: linear-gradient(top, #414149 0%, #35353d 50%, #25262b 100%);
   }
@@ -213,9 +214,9 @@ div#page_body{
 
 div#page_body div#profile_cover{
   width: 100%;
+  padding: 0 10px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0 10px;
 }
 
 div#page_body div#profile_cover img.cover{
